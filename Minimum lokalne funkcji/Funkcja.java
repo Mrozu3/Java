@@ -1,4 +1,4 @@
-/* Zadanie 2 Mroz Kamil
+/* Mroz Kamil
 
 Program do szukania minimum lokalnego funkcji w przedziale
 
