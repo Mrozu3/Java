@@ -1,0 +1,9 @@
+Klasa reprezentująca mapę zawierająca klucz -> wartość. Użylem HashMap, która pozwala bez dodatkowych bibliotek na  zaimplementować wszystkie potrzebne metody:
+- dodawanie elementów (dodanie elementu o użytym już wcześniej kluczu podmienia ten stary) za pomoca put
+- dostęp do wartości przez klucz za pomoca get
+- sprawdzanie czy istnieje element o podanym kluczu za pomoca containsKey
+
+Klase House rozszerza nasza mapa przechowująca urządzenia domowe string z kluczami int.
+Dodana metoda acceptVisitor przyjmująca obiekt o interfejsie Visitor. Usuwa wszystkie elementy które Visitor każe usunąć.
+Interfejs Visitor ma metodę shouldRemove przyjmującą pojedynczy klucz z mapy i dzialajacy wg. podanych kryteriow Visitora
+klasa Thief implementująca Vistor z naszej mapy znikają przedmioty o wartosci większej niż 1000 zl
