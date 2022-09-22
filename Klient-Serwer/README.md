@@ -1,0 +1,1 @@
+Para klient-serwer, w której klient przesyła nazwę pliku, a serwer otwiera ten plik i przesyła zawartość do klienta.
